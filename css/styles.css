@@ -1,0 +1,108 @@
+@import "variables.css";
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+
+header, footer {
+    background-color: var(--gray-background);
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "b a";
+    align-items: center;
+}
+
+.logo {
+    left: -10px;
+    position: relative;
+}
+
+.logo h2 {
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logo-top {
+    font-size: 1.5rem;   
+    margin: 8px 0px 0px 0px;
+}
+
+.logo-button {  
+    font-size: 1rem;
+    margin: 0px 0px 8px 0px;
+}
+
+footer {
+    display: none;
+}
+
+/* reference: https://blog.pope.tech/2020/02/28/missing-form-label-search/ */
+.wave-fix {
+    position: absolute;
+    overflow: hidden;
+    left: -999999px;
+    top: auto;
+}
+
+/*Nav menu*/
+.menu-hamburger {
+    font-size: 2rem;
+    padding-left: 10px;
+    z-index: 3;
+}
+
+#nav-menu {
+    display: none;
+}
+
+#nav-menu:checked ~ nav {
+    display: flex;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    background: var(--gray-background);
+    border-bottom-right-radius: 10px;
+    font-size: 1.7rem;
+    top: 66px;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+nav li {
+    padding: 5px 15px;
+}
+
+/*img, text and font*/
+
+.bottom-border {
+    border-bottom: 1px solid var(--black-color);
+}
+
+h1, h2, h3, a {
+    font-family: 'Andika', sans-serif;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+/*grid cells*/
+.grid-a {
+    grid-area: a;
+}
+
+.grid-b {
+    grid-area: b;
+}
