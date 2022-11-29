@@ -1,0 +1,74 @@
+main {
+    display: grid;
+}
+
+main a {
+    font-size: 1rem;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.center {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-area h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.top-area h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px;
+}
+
+main h2 {
+    font-size: 1.7rem;
+    padding: 0px 40px;
+    margin: 10px 0px 0px 0px;
+}
+
+main h3 {
+    font-size: 1.2rem;
+    font-weight: 500;  
+    padding: 0px 40px 30px 40px;
+    margin: 0;
+}
+
+main h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 40px;
+}
+
+.visiter-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.visiter-group h2{
+    font-size: 1rem;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.kids {
+    background-color: var(--red-background);
+}
+
+.teachers {
+    background-color: var(--brown-background);
+}
+
+.researchers {
+    background-color: var(--blue-background);
+}
+
+.events {
+    background-color: var(--teal-becground);
+}

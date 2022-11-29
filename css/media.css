@@ -1,7 +1,18 @@
 @media (max-width: 600px){}
 
 @media (min-width: 600px){
-    
+    footer {
+        grid-template-columns: repeat(4,auto);
+        grid-template-areas: "a b c d";
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+    }
 
 }
 
@@ -43,24 +54,16 @@
     }
 
     footer {
-        display: grid;
         grid-template-columns: repeat(4,auto);
         padding: 40px 70px;
     }
 
-    footer div {
-        padding: 0px 10px;
-    }
-
     footer h2 {
         font-size: 2rem;
-        margin: 5px;
     }
 
     footer h3 {
         font-size: 1.3rem;
-        font-weight: 500;
-        margin: 5px;
     }
 }
 

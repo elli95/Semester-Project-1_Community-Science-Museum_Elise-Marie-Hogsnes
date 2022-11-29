@@ -39,7 +39,25 @@ header {
 }
 
 footer {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-areas: "a c" "b d";
+    padding: 5px 5px;
+}
+
+footer div {
+    padding: 0px 10px;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+footer h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px;
 }
 
 /* reference: https://blog.pope.tech/2020/02/28/missing-form-label-search/ */
@@ -105,4 +123,12 @@ h1, h2, h3, a {
 
 .grid-b {
     grid-area: b;
+}
+
+.grid-c {
+    grid-area: c;
+}
+
+.grid-d {
+    grid-area: d;
 }
