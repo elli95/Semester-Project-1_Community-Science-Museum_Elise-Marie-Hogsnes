@@ -6,41 +6,80 @@ main a {
     font-size: 1rem;
 }
 
-main img {
-    max-width: 100%;
-}
 
-.center {
+.top-area-center {
     display: grid;
     justify-content: center;
     text-align: center;
 }
 
-.top-area h1 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+.top-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--grey-transparent-background);
+    width: 95%;
+    height: 165px;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    z-index: 1;
+    backdrop-filter: blur(2px);
 }
 
-.top-area h2 {
-    font-size: 1.5rem;
+.top-area img {
+    display: flex;
+    justify-content: center;
+}
+
+.top-area h1 {  
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+    background-color: unset;
+}
+
+.top-area h2 {  
+    font-size: 1rem;
     font-weight: 500;
     margin: 0px;
+    height: 0px;
+    background-color: unset;
+    top: 45px;
 }
 
-main h2 {
+.top-area a {
+    padding: 5px 10px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    width: 280px;
+    height: 20px;
+    top: 115px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.index-style {
+    display: grid;
+}
+
+.index-style h2 {
     font-size: 1.7rem;
     padding: 0px 40px;
     margin: 10px 0px 0px 0px;
 }
 
-main h3 {
-    font-size: 1.2rem;
+.index-style h3 {
+    font-size: 1rem;
     font-weight: 500;  
     padding: 0px 40px 30px 40px;
     margin: 0;
 }
 
-main h4 {
+.index-style h4 {
     font-size: 1rem;
     font-weight: 500;
     padding: 0px 40px;
@@ -51,24 +90,164 @@ main h4 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.visiter-group h2{
-    font-size: 1rem;
-    padding: 0px 10px;
+.visiter-group-style{
+    font-size: 1.1rem;
     text-align: center;
+    padding: 10px;
+    font-family: 'Andika', sans-serif;
 }
 
 .kids {
     background-color: var(--red-background);
 }
-
 .teachers {
     background-color: var(--brown-background);
 }
-
 .researchers {
     background-color: var(--blue-background);
 }
 
+.kids-radio-button,
+.teachers-radio-button,
+.researchers-radio-button {
+    position: absolute;
+    opacity: 0;
+}
+
+.kids-style,
+.teachers-style,
+.researchers-style  {
+    display: none;
+}
+
+.kids-radio-button:checked ~ .kids-style,
+.teachers-radio-button:checked ~ .teachers-style,
+.researchers-radio-button:checked ~ .researchers-style {
+    display: grid;
+}
+
+.researchers-radio-button:checked ~ .researchers-style {
+    grid-template-areas: "a" "b";
+}
+
+.button {
+    padding: 10px;
+    background-color: var(--green-background);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-row {
+    display: flex;
+    margin: 10px 10px 20px 10px;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+/* reference: https://www.educative.io/answers/how-to-crop-an-image-in-css */
+.kids-style img,
+.teachers-style img,
+.researchers-style img,
+.event-1 img,
+.event-2 img,
+.event-3 img,
+.food-shop img {  
+    object-fit: cover;
+    object-position: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.kids-style img,
+.teachers-style img,
+.researchers-style img {  
+    width: 100%;
+    height: 290px;
+}
+
+/*
+.researchers-style img {  
+    object-position: 0px -130px;
+}*/
+
+.kids-text-style,
+.teachers-text-style,
+.researchers-text-style {
+    margin: 10px;  
+    display: flex;   
+    justify-content: center;   
+    flex-direction: column;   
+    justify-self: center; 
+}
+
 .events {
     background-color: var(--teal-becground);
+}
+
+
+/*
+.event-date h2 {
+    position: absolute;
+    background-color: var(--white-color);
+    border-radius: 5px;  
+    padding: 0px 15px;
+    margin: 20px 0px 0px -1%;
+}*/
+
+/*
+.event-date {
+    display: flex;
+    font-style: italic;
+    font-size: 0.5rem;
+    gap: 10px;
+}
+
+.event-date h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}*/
+
+
+.event-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.event-date {
+    display: flex;
+    gap: 10px;
+}
+
+.event-date h2 {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.event-1 h3,
+.event-2 h3,
+.event-3 h3 {
+    max-width: 445px;
+    padding-top: 10px;  
+}
+
+.events img {  
+    margin: 40px 10px 10px 10px;
+    width: 80%;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.food-shop img {
+    width: 100%;
 }
