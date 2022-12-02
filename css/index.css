@@ -26,6 +26,7 @@ main a {
     border-radius: 10px;
     z-index: 1;
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .top-area img {
@@ -150,24 +151,9 @@ main a {
     gap: 5px;
 }
 
-/* reference: https://www.educative.io/answers/how-to-crop-an-image-in-css */
-.kids-style img,
-.teachers-style img,
-.researchers-style img,
-.event-1 img,
-.event-2 img,
-.event-3 img,
-.food-shop img {  
-    object-fit: cover;
-    object-position: center;
-    justify-self: center;
-    text-align: center;
-}
-
 .kids-style img,
 .teachers-style img,
 .researchers-style img {  
-    width: 100%;
     height: 290px;
 }
 
@@ -246,8 +232,4 @@ main a {
     width: 80%;
     height: 240px;
     border-radius: 10px;
-}
-
-.food-shop img {
-    width: 100%;
 }

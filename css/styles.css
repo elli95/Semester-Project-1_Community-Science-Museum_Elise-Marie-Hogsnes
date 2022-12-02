@@ -1,5 +1,12 @@
 @import "variables.css";
 
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+
 img {
     max-width: 100%;
 }
@@ -9,6 +16,7 @@ body {
     grid-template-rows: auto 1fr auto;
     margin: 0;
     min-height: 100vh;
+    padding-top: 66px;
 }
 
 header, footer {
@@ -20,6 +28,10 @@ header {
     grid-template-columns: auto 1fr;
     grid-template-areas: "b a";
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .logo {
@@ -63,6 +75,30 @@ footer h3 {
     font-size: 1rem;
     font-weight: 500;
     margin: 5px;
+}
+
+/* reference: https://www.educative.io/answers/how-to-crop-an-image-in-css */
+.kids-style img,
+.teachers-style img,
+.researchers-style img,
+.event-1 img,
+.event-2 img,
+.event-3 img,
+.food-shop img,
+.exhibitions-img img,
+.circle-image img {  
+    object-fit: cover;
+    object-position: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.kids-style img,
+.teachers-style img,
+.researchers-style img,
+.food-shop img,
+.exhibitions-img img{  
+    width: 100%;
 }
 
 /* reference: https://blog.pope.tech/2020/02/28/missing-form-label-search/ */
@@ -137,4 +173,8 @@ h1, h2, h3, a {
 
 .grid-d {
     grid-area: d;
+}
+
+.grid-e {
+    grid-area: e;
 }

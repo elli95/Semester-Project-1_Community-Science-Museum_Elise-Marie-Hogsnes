@@ -1,4 +1,22 @@
-@media (max-width: 600px){}
+@media (min-width: 490px){
+    .lable-group {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+        "a b c d e";
+    }
+
+    .exhibitions-selection a {
+        padding: 0px 14px;
+    }
+}
+
+@media (min-width: 500px){
+    .ex-1-img img {
+        object-position: 0px -195px;
+    }
+}
 
 @media (min-width: 600px){
     footer {
@@ -50,12 +68,31 @@
         height: 430px;
     }
 
+    /*exhibitions*/
+    .exhibitions-selection a {
+        font-size: 1.1rem;
+        height: 95px;
+    }
+
+    .exhibitions-img img {
+        height: 265px;
+    }
+
+    .ex-1-img img {
+        object-position: 0px bottom;
+    }
+
 }
 
 @media (min-width: 900px){
+    body {
+        padding-top: 0px;
+    }
+
     header {
         grid-template-areas: "a b";
         padding: 10px; 
+        position: unset;
     }
 
     .logo {
@@ -172,6 +209,46 @@
     .food-shop img {
         height: 280px;
     }
+
+    /*exhibitions*/
+    .exhibitions-selection a {
+        font-size: 1.5rem;
+    }
+
+    .exhibitions-img img {
+        height: 430px;
+    }
+
+    .font-style h2 {
+        font-size: 2rem;  
+        padding-left: 100px;
+    }
+
+    .font-style h3 {
+        font-size: 1.5rem;
+    }
+
+    .exhibitions-text-style {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        margin: 40px 80px 60px 80px;
+    }
+
+    .circle-image img {
+        display: flex;
+        clip-path: ellipse(182px 213px at center center);
+        width: auto;
+    }
+
+    .beach-cleanup img {
+        height: 660px;
+    }
+
+    .ecology-style-fix {
+        margin: 0px 80px 0px 80px;
+    }
 }
 
 @media (min-width: 1000px){
@@ -183,6 +260,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
 }
 
 @media (min-width: 1150px) {
@@ -208,6 +286,28 @@
         height: 60px;
         font-size: 2.2rem;
     }
+
+    /*exhibitions*/
+    .circle-image img {
+        clip-path: circle(213px);
+    }
+    
+    .skeleton-suit img  {  
+        clip-path: circle(214px at 240px 216px);
+    }
+}
+
+@media (min-width: 1300px){
+    .font-style h3 {
+        width: 620px;
+    }
+
+    .exhibitions-selection a {
+        padding: 0px 65px;
+        font-size: 1.7rem;
+        height: 130px;
+    }
+
 }
 
 @media (min-width: 1500px) {
@@ -232,5 +332,36 @@
 
     .food-shop img {
         height: 470px;
-      }
+    }
+
+    /*exhibitions*/
+    .font-style h2 {
+        padding-left: 8%;
+    }
+
+    .ex-1-img img {
+        object-position: 0px -545px;
+    }
+
+    .skeleton-suit img {
+        clip-path: circle(214px at 247px 216px);
+    }
+}
+
+@media (min-width: 1990px) {
+    .exhibitions-selection a {
+        padding: 0px 130px;
+    }
+
+    .font-style h3 {
+        width: 850px;
+    }
+
+    .ex-1-img img {
+        object-position: 0px -897px;
+    }
+
+    .ex-5-img img {
+        object-position: 0px -260px;
+    }
 }
