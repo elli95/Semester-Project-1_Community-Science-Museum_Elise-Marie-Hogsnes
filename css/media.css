@@ -93,10 +93,12 @@
         grid-template-areas: "a b";
         padding: 10px; 
         position: unset;
+        width: unset;
     }
 
     .logo {
-        left: 0px;
+        left: 0px;/*
+        padding-left: 10px;*/
     }
 
     .menu-hamburger {
@@ -298,6 +300,11 @@
 }
 
 @media (min-width: 1300px){
+    /*.logo {
+        left: 0px;
+        padding-left: 50px;
+    }*/
+
     .font-style h3 {
         width: 620px;
     }

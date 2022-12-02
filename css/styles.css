@@ -86,7 +86,8 @@ footer h3 {
 .event-3 img,
 .food-shop img,
 .exhibitions-img img,
-.circle-image img {  
+.circle-image img,
+.about-img {  
     object-fit: cover;
     object-position: center;
     justify-self: center;
@@ -97,8 +98,23 @@ footer h3 {
 .teachers-style img,
 .researchers-style img,
 .food-shop img,
-.exhibitions-img img{  
+.exhibitions-img img,
+.about-img {  
     width: 100%;
+}
+
+.button {
+    padding: 10px;
+    background-color: var(--green-background);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--black-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /* reference: https://blog.pope.tech/2020/02/28/missing-form-label-search/ */

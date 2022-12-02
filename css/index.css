@@ -131,19 +131,6 @@ main a {
     grid-template-areas: "a" "b";
 }
 
-.button {
-    padding: 10px;
-    background-color: var(--green-background);
-    width: 140px;
-    height: 25px;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
 .button-row {
     display: flex;
     margin: 10px 10px 20px 10px;
@@ -173,7 +160,7 @@ main a {
 }
 
 .events {
-    background-color: var(--teal-becground);
+    background-color: var(--teal-background);
 }
 
 

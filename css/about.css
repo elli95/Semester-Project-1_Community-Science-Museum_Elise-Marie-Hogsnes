@@ -1,0 +1,47 @@
+main {
+    display: grid;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.about-us h2,
+.join-us-font h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.join-us-font h2 {
+    font-size: 1.4rem;
+}
+
+.top-img {
+    height: 100px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+.join-us-img {
+    height: 225px;
+    border-radius: 10px;
+    width: 260px;
+    margin: 10px;
+}
+
+.about-us {
+    background-color: var(--grey-background);
+}
+
+.support-us {
+    background-color: var(--red-background);
+}
+
+.volunteer {
+    background-color: var(--teal-background);
+}
+
+.internships {
+    background-color: var(--blue-background);
+}
