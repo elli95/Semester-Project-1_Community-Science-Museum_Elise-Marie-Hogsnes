@@ -1,26 +1,35 @@
-main {
+main,
+.join-us,
+.support-button,
+.volunteer-button,
+.contakt-button {
     display: grid;
 }
 
-h1 {
+.about-us h1 {
     font-size: 2rem;
 }
 
 .about-us h2,
-.join-us-font h3 {
+.join-us-style h3 {
     font-size: 1.2rem;
     font-weight: 500;
+    padding: 10px 0px;
 }
 
-.join-us-font h2 {
+.join-us-style h2 {
     font-size: 1.4rem;
 }
 
+.join-us-style {  
+    display: grid;
+    padding: 27px;
+}
+
 .top-img {
-    height: 100px;
     border-radius: 10px;
     width: 90%;
-    margin: 10px;
+    margin: 15px;
 }
 
 .join-us-img {
@@ -32,6 +41,9 @@ h1 {
 
 .about-us {
     background-color: var(--grey-background);
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .support-us {
@@ -40,6 +52,17 @@ h1 {
 
 .volunteer {
     background-color: var(--teal-background);
+}
+
+.volunteer-style {
+    grid-template-areas: "a" "b";
+}
+
+.support-button,
+.volunteer-button,
+.contakt-button {
+    justify-items: end;
+    margin-bottom: 10px;
 }
 
 .internships {

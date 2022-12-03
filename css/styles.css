@@ -1,11 +1,10 @@
 @import "variables.css";
 
-/*
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}*/
+}
 
 img {
     max-width: 100%;
@@ -107,7 +106,7 @@ footer h3 {
     padding: 10px;
     background-color: var(--green-background);
     width: 140px;
-    height: 25px;
+    height: 40px;
     border-radius: 10px;
     border: 1px solid var(--black-color);
     text-align: center;

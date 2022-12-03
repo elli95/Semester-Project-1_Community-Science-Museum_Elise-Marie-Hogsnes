@@ -1,4 +1,8 @@
-main {
+main,
+.index-style,
+.kids-radio-button:checked ~ .kids-style,
+.teachers-radio-button:checked ~ .teachers-style,
+.researchers-radio-button:checked ~ .researchers-style  {
     display: grid;
 }
 
@@ -54,17 +58,13 @@ main a {
     background-color: var(--white-color);
     border-radius: 10px;
     width: 280px;
-    height: 20px;
+    height: 34px;
     top: 115px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10px;
     font-size: 0.9rem;
-}
-
-.index-style {
-    display: grid;
 }
 
 .index-style h2 {
@@ -121,12 +121,6 @@ main a {
     display: none;
 }
 
-.kids-radio-button:checked ~ .kids-style,
-.teachers-radio-button:checked ~ .teachers-style,
-.researchers-radio-button:checked ~ .researchers-style {
-    display: grid;
-}
-
 .researchers-radio-button:checked ~ .researchers-style {
     grid-template-areas: "a" "b";
 }
@@ -163,37 +157,11 @@ main a {
     background-color: var(--teal-background);
 }
 
-
-/*
-.event-date h2 {
-    position: absolute;
-    background-color: var(--white-color);
-    border-radius: 5px;  
-    padding: 0px 15px;
-    margin: 20px 0px 0px -1%;
-}*/
-
-/*
-.event-date {
-    display: flex;
-    font-style: italic;
-    font-size: 0.5rem;
-    gap: 10px;
-}
-
-.event-date h2 {
-    font-size: 1.3rem;
-    margin: 0;
-    padding: 0;
-}*/
-
-
 .event-style {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .event-date {
     display: flex;

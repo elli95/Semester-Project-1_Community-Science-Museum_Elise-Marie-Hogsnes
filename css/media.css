@@ -82,6 +82,16 @@
         object-position: 0px bottom;
     }
 
+    /*about*/
+    .about-us {
+        margin: 20px 35px;
+        padding: 10px 50px;
+    }
+
+    .join-us-style {
+        padding: 30px 60px;
+    }
+
 }
 
 @media (min-width: 900px){
@@ -195,7 +205,7 @@
     }
 
     .button {
-        width: 172px;
+        width: 190px;
         font-size: 1.3rem;
     }
 
@@ -250,6 +260,46 @@
 
     .ecology-style-fix {
         margin: 0px 80px 0px 80px;
+    }
+
+    /*about*/
+    .about-us h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-us h2,
+    .join-us-style h3 {
+        font-size: 1.4rem;
+    }
+
+    .join-us-style h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-us {
+        margin: 20px 75px;
+        padding: 30px 50px;
+    }
+
+    .join-us {
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .join-us-style {
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        grid-gap: 30px;
+    }
+    
+    .support-button,
+    .contakt-button {
+        justify-items: start;
+    }
+
+    .volunteer-style {  
+        grid-template-columns: auto 1fr;
+        grid-template-areas: "b a";
     }
 }
 
@@ -315,6 +365,15 @@
         height: 130px;
     }
 
+    /*about*/
+    .about-us {
+        padding: 15px 135px;
+    }
+
+    .join-us-text {
+        width: 730px;
+    }
+
 }
 
 @media (min-width: 1500px) {
@@ -326,7 +385,7 @@
     .teachers-style img,
     .researchers-style img {/*
         object-position: 0px 0px;*/
-        height: 745px;
+        height: 810px;
     }
 
     .kids-style img {  
@@ -352,6 +411,20 @@
 
     .skeleton-suit img {
         clip-path: circle(214px at 247px 216px);
+    }
+
+    /*about*/
+    .about-us {
+        width: 1290px;
+        justify-self: center;
+    }
+
+    .join-us {
+        padding: 50px 0px;
+    }
+
+    .join-us-text {
+        width: 982px;
     }
 }
 
