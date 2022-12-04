@@ -102,6 +102,12 @@ footer h3 {
     width: 100%;
 }
 
+.museum-img {
+    border-radius: 10px;
+    width: 90%;
+    margin: 15px;
+}
+
 .button {
     padding: 10px;
     background-color: var(--green-background);
