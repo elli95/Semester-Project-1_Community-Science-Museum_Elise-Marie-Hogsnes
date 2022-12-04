@@ -3,27 +3,6 @@ main {
     justify-items: center;
 }
 
-.visit-style {
-    background-color: var(--grey-background);
-    padding: 5px 30px;
-    margin: 15px;
-    border-radius: 10px;
-}
-
-.visit-style h1 {
-    font-size: 2rem;
-    display: grid;
-    justify-items: center;
-}
-
-.visit-style h2 {
-    font-size: 1.5rem;
-}
-
-.visit-style h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-}
 
 .button-style {
     display: grid;

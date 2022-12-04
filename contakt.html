@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Community Science Museum - If you have questions, want to plan a tour or have other reasons to contact us, you can find all the necessary information here."
+    />
+    <title>Community Science Museum | Contact us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Andika&family=Audiowide&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contakt.css" />
     <link rel="stylesheet" href="css/media.css" />
     <script src="https://kit.fontawesome.com/b0b0906e7d.js" crossorigin="anonymous"></script>
   </head>
@@ -36,7 +40,46 @@
       </nav>
     </header>
     <main>
-      <img class="about-img museum-img" src="images/scott-webb-102825.webp" alt="A colorful wall with the text Museum on the outside." />
+      <img class="about-img museum-img" src="images/scott-webb-102825.webp" alt="A colorful building with the text Museum on the outside." />
+      <section class="visit-contakt-style">
+        <h1>Contakt us</h1>
+        <h2>Call us on 12345678 Monday-Saturday: 10:00 – 16:00</h2>
+        <h2>Or fill out this form and we will respond to you as soon as possible</h2>
+        <div class="contact-form" id="contakt-form">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="phone-number" id="phone-number" />
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <select id="subject" name="Subject">
+              <option value="Damage item">Tours</option>
+              <option value="Not delivered">Exhibition</option>
+              <option value="Not delivered">Young Stars club</option>
+              <option value="Not delivered">Holiday club</option>
+              <option value="Not delivered">Support</option>
+              <option value="Not delivered">Volunteer</option>
+              <option value="Not delivered">Internships</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="20" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="button-style">
+          <input type="submit" value="Submit" class="button" />
+        </div>
+      </section>
     </main>
     <footer>
       <div class="grid-a">
