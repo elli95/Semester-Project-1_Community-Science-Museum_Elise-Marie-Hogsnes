@@ -310,6 +310,31 @@
     .iframe-style {
         height: 240px;
     }
+
+    /*contakt*/
+    .contakt-style h2 {
+        font-size: 1.5rem;
+        width: 390px;
+    }
+
+    .form-felds input, 
+    .form-felds select, 
+    .form-felds textarea {
+        width: 380px;
+        height: 45px;
+    }
+
+    .form-felds textarea {
+        height: 220px;
+    }
+
+    .form-felds label, 
+    .form-felds input, 
+    .form-felds select, 
+    .form-felds textarea, 
+    .button-style input {
+        font-size: 1.3rem;
+    }
 }
 
 @media (min-width: 1000px){

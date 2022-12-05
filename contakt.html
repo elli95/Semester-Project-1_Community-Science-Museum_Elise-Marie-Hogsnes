@@ -41,24 +41,24 @@
     </header>
     <main>
       <img class="about-img museum-img" src="images/scott-webb-102825.webp" alt="A colorful building with the text Museum on the outside." />
-      <section class="visit-contakt-style">
+      <section class="visit-contakt-style contakt-style">
         <h1>Contakt us</h1>
-        <h2>Call us on 12345678 Monday-Saturday: 10:00 – 16:00</h2>
+        <h2>Call us on 12345678</br>Monday-Saturday: 10:00 – 16:00</h2>
         <h2>Or fill out this form and we will respond to you as soon as possible</h2>
-        <div class="contact-form" id="contakt-form">
-          <div>
+        <form class="contact-form" id="contakt-form">
+          <div class="form-felds">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" />
           </div>
-          <div>
+          <div class="form-felds">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" />
           </div>
-          <div>
+          <div class="form-felds">
             <label for="phone-number">Phone Number:</label>
             <input type="tel" name="phone-number" id="phone-number" />
           </div>
-          <div>
+          <div class="form-felds">
             <label for="subject">Subject</label>
             <select id="subject" name="Subject">
               <option value="Damage item">Tours</option>
@@ -71,14 +71,14 @@
               <option value="Other">Other</option>
             </select>
           </div>
-          <div>
+          <div class="form-felds">
             <label for="message">Message:</label>
             <textarea name="message" id="message" cols="20" rows="10"></textarea>
           </div>
-        </div>
-        <div class="button-style">
-          <input type="submit" value="Submit" class="button" />
-        </div>
+          <div class="button-style">
+            <input type="submit" value="Submit" class="button" />
+          </div>
+        </form>
       </section>
     </main>
     <footer>

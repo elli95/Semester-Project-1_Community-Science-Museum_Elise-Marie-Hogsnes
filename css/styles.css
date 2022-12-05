@@ -133,8 +133,8 @@ footer h3 {
 .button {
     padding: 10px;
     background-color: var(--green-background);
-    width: 140px;
-    height: 40px;
+    width: 160px;/*
+    height: 40px;*/
     border-radius: 10px;
     border: 1px solid var(--black-color);
     text-align: center;
