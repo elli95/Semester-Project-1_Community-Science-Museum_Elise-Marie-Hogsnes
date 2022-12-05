@@ -10,16 +10,13 @@ main,
     display: grid;
     justify-content: center;
     padding-bottom: 10px;
+    padding: 10px 0px;
 }
 
-/*
-.no-padding-buttom {
-    padding-bottom: 0px;
-}
 
-.no-padding-top {
-    padding-top: 0px;
-}*/
+.h2-padding {
+    padding-top: 20px;
+}
 
 .form-felds input,
 .form-felds select,
@@ -39,17 +36,16 @@ main,
     width: 90%;
 }
 
-/*
+
 .visit-contakt-style h1 {
-    font-size: 1.5rem;
-}*/
+    padding: 10px 0px;
+}
 
 .visit-contakt-style h2 {
     font-size: 1.2rem;
     font-weight: 500;
     width: 215px;
     text-align: center;
-    padding: 10px 0px;
 }
 
 .form-felds label, 
