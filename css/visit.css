@@ -4,11 +4,6 @@ main {
 }
 
 
-.button-style {
-    display: grid;
-    justify-items: end;
-}
-
 .visit-page-space {
     padding: 10px 0px;
 }
@@ -23,3 +18,25 @@ main {
     margin: 20px 0px;
     border-radius: 10px;
 }
+
+.ticket-form {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 10px 0px;
+}
+
+.button-style,
+.tickets {
+    display: grid;
+    justify-items: center;
+}
+
+.ticket-form-felds {
+    display: grid;
+}
+
+.button {
+    text-transform: uppercase;
+}
+

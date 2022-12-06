@@ -76,6 +76,13 @@ footer h3 {
     margin: 5px;
 }
 
+main {
+    background-image: url(../images/daniel-pascoa-tjiPN3e45WE-unsplash.webp);
+    background-size: cover;
+    background-position: top center;
+}
+
+
 /* reference: https://www.educative.io/answers/how-to-crop-an-image-in-css */
 .kids-style img,
 .teachers-style img,
@@ -113,6 +120,7 @@ footer h3 {
     padding: 5px 30px;
     margin: 15px;
     border-radius: 10px;
+    border: 1px solid var(--white-color);
 }
 
 .visit-contakt-style h1 {
@@ -142,6 +150,32 @@ footer h3 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.ticket-form-felds input,
+.form-felds input,
+.form-felds select,
+.form-felds textarea {
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: var(--white-color);
+    padding-left: 5px;
+}
+
+.ticket-form-felds label,
+.ticket-form-felds input,
+.form-felds label, 
+.form-felds input,
+.form-felds select,
+.form-felds textarea,
+.button-style input  {
+    font-family: 'Andika', sans-serif;
+    font-size: 1rem;
+}
+
+.button-style {
+    padding: 20px 0px;
 }
 
 /* reference: https://blog.pope.tech/2020/02/28/missing-form-label-search/ */

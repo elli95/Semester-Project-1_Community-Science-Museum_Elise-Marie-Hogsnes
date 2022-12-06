@@ -10,6 +10,15 @@ main a {
     font-size: 1rem;
 }
 
+main {
+    background-image: none;
+}
+
+.top-area {
+    background-image: url(../images/daniel-pascoa-tjiPN3e45WE-unsplash.webp);
+    background-size: contain;
+    background-position: center;
+}
 
 .top-area-center {
     display: grid;
@@ -187,4 +196,8 @@ main a {
     width: 80%;
     height: 240px;
     border-radius: 10px;
+}
+
+.food-shop {
+    background-color: var(--white-color);
 }

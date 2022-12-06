@@ -311,12 +311,19 @@
         height: 240px;
     }
 
+    .ticket-form {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;  
+        gap: 10px 20px;
+    }
+
     /*contakt*/
     .contakt-style h2 {
         font-size: 1.5rem;
         width: 390px;
     }
 
+    .ticket-form-felds input,
     .form-felds input, 
     .form-felds select, 
     .form-felds textarea {
@@ -324,10 +331,16 @@
         height: 45px;
     }
 
+    .ticket-form-felds input{
+        width: 325px;
+    }
+
     .form-felds textarea {
         height: 220px;
     }
 
+    .ticket-form-felds label,
+    .ticket-form-felds input,
     .form-felds label, 
     .form-felds input, 
     .form-felds select, 
@@ -426,7 +439,7 @@
     .teachers-style img,
     .researchers-style img {/*
         object-position: 0px 0px;*/
-        height: 810px;
+        height: 825px;
     }
 
     .kids-style img {  

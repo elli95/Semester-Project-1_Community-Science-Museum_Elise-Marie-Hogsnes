@@ -52,6 +52,20 @@
           <h3>Monday-Friday: 10:00 – 16:00</h3>
           <h3>Saturday: 9:00 – 16:00</h3>
           <h3>Sunday: Closed</h3>
+          <iframe
+            class="about-img iframe-style"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.9028013622758!2d10.781189416098105!3d59.966935781886484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7ee7ede69%3A0x3f728e95cf11fb30!2sNorsk%20Teknisk%20Museum!5e0!3m2!1sno!2sno!4v1670087168847!5m2!1sno!2sno"
+            aria-label="Museum location (Kjelsåsveien 143, 0491 Oslo) on google maps"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+        <section class="visit-page-space">
+          <h2>Accessibility</h2>
+          <h3>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</h3>
         </section>
         <section class="visit-page-space admission-style">
           <h2>Admission</h2>
@@ -60,27 +74,47 @@
             There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the
             museum.
           </h3>
-          <h3>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</h3>
-          <div class="button-style">
+          <h3>
+            You can order your tickets in the form below, payment takes place on arrival at the museum. If you would like to organize a trip for 6 or
+            more people, please contact us to arrange the trip.
+          </h3>
+          <!--<div class="button-style">
             <a class="button" href="contakt.html"
               >Contact us <i class="fa-solid fa-arrow-right"><span class="wave-fix">This way</span></i></a
             >
+          </div>-->
+        </section>
+        <form class="tickets" id="contakt-form">
+          <div class="ticket-form">
+            <div class="ticket-form-felds">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="ticket-form-felds">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="ticket-form-felds">
+              <label for="phone-number">Phone Number:</label>
+              <input type="tel" name="phone-number" id="phone-number" required />
+            </div>
+            <div class="ticket-form-felds">
+              <label for="subject">Tickets:</label>
+              <input type="number" required />
+            </div>
+            <div class="ticket-form-felds">
+              <label for="subject">Date:</label>
+              <input type="date" required />
+            </div>
+            <div class="ticket-form-felds">
+              <label for="subject">time:</label>
+              <input type="time" required />
+            </div>
           </div>
-        </section>
-        <section class="visit-page-space">
-          <h2>Accessibility</h2>
-          <h3>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</h3>
-        </section>
-        <iframe
-          class="about-img iframe-style"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.9028013622758!2d10.781189416098105!3d59.966935781886484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7ee7ede69%3A0x3f728e95cf11fb30!2sNorsk%20Teknisk%20Museum!5e0!3m2!1sno!2sno!4v1670087168847!5m2!1sno!2sno"
-          aria-label="Museum location (Kjelsåsveien 143, 0491 Oslo) on google maps"
-          width="600"
-          height="450"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          <div class="button-style">
+            <input type="submit" value="Submit" class="button" />
+          </div>
+        </form>
       </section>
     </main>
     <footer>
