@@ -33,12 +33,11 @@ main {
     background-color: var(--grey-transparent-background);
     width: 95%;
     height: 165px;
-    margin: 10px;
     justify-self: center;
     align-self: center;
     border-radius: 10px;
     z-index: 1;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(2px);
 }
 
@@ -68,7 +67,7 @@ main {
     border-radius: 10px;
     width: 280px;
     height: 34px;
-    top: 115px;
+    top: 122px;
     flex-direction: row;
     align-items: center;
     justify-content: center;

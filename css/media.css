@@ -155,7 +155,6 @@
     .top-text {
         height: 400px;
         width: 90%;
-        margin: 20px;
     }
 
     .top-area h1 {
@@ -181,7 +180,8 @@
     }
 
     .kids-radio-button:checked ~ .kids-style,
-    .teachers-radio-button:checked ~ .teachers-style,
+    /*
+    .teachers-radio-button:checked ~ .teachers-style,*/
     .researchers-radio-button:checked ~ .researchers-style {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -191,13 +191,27 @@
     }
 
     .kids-style img,
-    .teachers-style img,
     .researchers-style img {
         height: 100%;
     }
 
+    .teachers-style img {
+        height: 870px;
+    }
+
+    .teachers-text-style {
+        display: grid;
+        align-content: center;
+        width: 50%;
+        margin: 0px;
+        padding: 10px;
+        position: absolute;
+        background-color: var(--brown-background);
+        height: 870px;
+    }
+
     .kids-style img {  
-        object-position: -75px 0px;
+        object-position: -275px 0px;
     }
     
     .visiter-group-style {
@@ -387,7 +401,7 @@
     }
 
     .top-area a {
-        top: 346px;
+        top: 360px;
         width: 690px;
         height: 60px;
         font-size: 2.2rem;
@@ -435,11 +449,15 @@
         width: 645px;
     }
 
+    .kids-text-style h2{
+        width: 630px;
+    }
+
     .kids-style img,
     .teachers-style img,
     .researchers-style img {/*
         object-position: 0px 0px;*/
-        height: 825px;
+        height: 870px;
     }
 
     .kids-style img {  

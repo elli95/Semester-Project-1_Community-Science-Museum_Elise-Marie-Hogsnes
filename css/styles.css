@@ -16,6 +16,19 @@ body {
     margin: 0;
     min-height: 100vh;
     padding-top: 66px;
+    animation-name: page-turn-animation;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    background-color: var(--black-color);
+}
+
+/*Reference: My previous assignment in html & css - https://github.com/elli95/HTML-and-CSS_CA_Elise-Marie-Hogsnes/blob/main/css/styles.css */
+@keyframes page-turn-animation {
+    0% {opacity: 0;}
+    20% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity: 1;}
 }
 
 header, footer {
@@ -59,6 +72,7 @@ footer {
     grid-template-columns: repeat(2,auto);
     grid-template-areas: "a c" "b d";
     padding: 5px 5px;
+    z-index: 3;
 }
 
 footer div {
@@ -82,6 +96,43 @@ main {
     background-position: top center;
 }
 
+.to-the-top-arrow {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background-color: var(--grey-background);
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 1.5rem;
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+.to-the-top-arrow:hover {
+    background-color: var(--green-background);
+}
+
+/* reference: https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/ */
+.image-zoom:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+}
+
+.image-box {
+    overflow: hidden;
+}
+
+.image-flip:hover {
+    transform: scale(-100%, 1);
+    transition: transform 0.25s;
+}
+
+.image-zoom,
+.image-flip {
+    transition: transform 0.25s;
+}
 
 /* reference: https://www.educative.io/answers/how-to-crop-an-image-in-css */
 .kids-style img,
@@ -226,6 +277,10 @@ nav li {
 
 .bottom-border {
     border-bottom: 1px solid var(--black-color);
+}
+
+.bold {
+    font-weight: bold;
 }
 
 h1, h2, h3, a {

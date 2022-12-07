@@ -4,6 +4,8 @@ main,
 .volunteer-button,
 .contakt-button {
     display: grid;
+    justify-items: center;
+    width: 100%;
 }
 
 .about-us h1 {
