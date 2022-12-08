@@ -27,8 +27,7 @@ main {
 }
 
 .top-text {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     position: absolute;
     background-color: var(--grey-transparent-background);
     width: 95%;
@@ -68,7 +67,7 @@ main {
     width: 280px;
     height: 34px;
     top: 122px;
-    flex-direction: row;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
