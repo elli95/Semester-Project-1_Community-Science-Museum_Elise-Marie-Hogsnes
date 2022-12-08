@@ -214,6 +214,7 @@ main {
 }
 
 .ticket-form-felds input,
+.ticket-form-felds select,
 .form-felds input,
 .form-felds select,
 .form-felds textarea {
@@ -226,6 +227,7 @@ main {
 
 .ticket-form-felds label,
 .ticket-form-felds input,
+.ticket-form-felds select,
 .form-felds label, 
 .form-felds input,
 .form-felds select,
@@ -281,6 +283,11 @@ nav ul {
 
 nav li {
     padding: 5px 15px;
+}
+
+nav a {
+    width: 125px;
+    display: flex;
 }
 
 /*img, text and font*/

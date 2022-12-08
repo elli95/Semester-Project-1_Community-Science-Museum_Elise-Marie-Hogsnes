@@ -134,6 +134,10 @@
         padding: 0px 15px;
         margin: 10px 0px;
     }
+    
+    nav a {
+        width: auto;
+    }
 
     .bottom-border {
         border-bottom: none;
@@ -344,6 +348,7 @@
     }
 
     .ticket-form-felds input,
+    .ticket-form-felds select,
     .form-felds input, 
     .form-felds select, 
     .form-felds textarea {
@@ -351,7 +356,8 @@
         height: 45px;
     }
 
-    .ticket-form-felds input{
+    .ticket-form-felds input,
+    .ticket-form-felds select {
         width: 325px;
     }
 
@@ -361,12 +367,13 @@
 
     .ticket-form-felds label,
     .ticket-form-felds input,
+    .ticket-form-felds select,
     .form-felds label, 
     .form-felds input, 
     .form-felds select, 
     .form-felds textarea, 
     .button-style input {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 
