@@ -38,6 +38,7 @@ main {
     z-index: 1;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(2px);
+    margin: 10px;
 }
 
 .top-area img {
