@@ -237,6 +237,10 @@
     }
 
     /*exhibitions*/
+    .exhibitions-selection h1 {
+        font-size: 1.6rem;
+    }
+
     .exhibitions-selection a {
         font-size: 1.5rem;
     }
@@ -412,9 +416,10 @@
         clip-path: circle(213px);
     }
     
+    /*
     .skeleton-suit img  {  
         clip-path: circle(214px at 240px 216px);
-    }
+    }*/
 }
 
 @media (min-width: 1300px){
@@ -431,6 +436,10 @@
         padding: 0px 65px;
         font-size: 1.7rem;
         height: 130px;
+    }
+
+    .exhibitions-selection h1 {
+        font-size: 2.3rem;
     }
 
     /*about*/
@@ -481,9 +490,10 @@
         object-position: 0px -545px;
     }
 
+    /*
     .skeleton-suit img {
         clip-path: circle(214px at 247px 216px);
-    }
+    }*/
 
     /*about*/
     .about-us {

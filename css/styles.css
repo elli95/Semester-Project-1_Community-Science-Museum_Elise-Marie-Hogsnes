@@ -130,7 +130,17 @@ main {
 }
 
 .image-zoom,
-.image-flip {
+.image-flip,
+.text-effect-logo h2 {
+    transition: transform 0.25s;
+}
+
+.text-effect:hover {
+    text-decoration: 2px solid underline;
+}
+.text-effect-logo:hover  h2{
+    text-shadow: 3px 3px var(--green-background);
+    transform: scale(0.9);
     transition: transform 0.25s;
 }
 
