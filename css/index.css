@@ -172,6 +172,10 @@ main {
     justify-self: center; 
 }
 
+.no-padding-bottom {
+    padding-bottom: 0px;
+}
+
 .events {
     background-color: var(--teal-background);
 }
@@ -180,6 +184,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 
 .event-date {

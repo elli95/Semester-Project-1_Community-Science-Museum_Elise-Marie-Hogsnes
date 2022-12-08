@@ -476,11 +476,15 @@
     .teachers-style img,
     .researchers-style img {/*
         object-position: 0px 0px;*/
-        height: 870px;
+        height: 942px;
     }
 
     .kids-style img {  
         object-position: center;
+    }
+
+    .teachers-text-style {
+        height: 942px;
     }
 
     .events img {

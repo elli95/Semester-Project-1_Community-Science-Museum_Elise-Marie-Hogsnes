@@ -111,7 +111,7 @@ main {
 }
 
 .to-the-top-arrow:hover {
-    background-color: var(--green-background);
+    background-color: var(--hover-green-background);
 }
 
 /* reference: https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/ */
@@ -138,9 +138,30 @@ main {
 .text-effect:hover {
     text-decoration: 2px solid underline;
 }
+
 .text-effect-logo:hover  h2{
     text-shadow: 3px 3px var(--green-background);
     transform: scale(0.9);
+    transition: transform 0.25s;
+}
+
+.top-text-button:hover {
+    border: 2px solid var(--black-color);
+    border-radius: 20px;
+    transition: transform 0.25s;
+    box-shadow: 0px 3px 8px var(--black-color);
+}
+
+.exhibition-lable:hover {
+    background-image: url(../images/scott-webb-OxHPDs4WV8Y-unsplash.webp);
+    transition: transform 0.25s;
+    background-size: cover;
+    background-position: center;
+}
+
+.button:hover {
+    background-color: var(--hover-green-background);
+    box-shadow: 2px 2px 5px var(--black-color);
     transition: transform 0.25s;
 }
 
@@ -253,7 +274,7 @@ main {
 .menu-hamburger {
     font-size: 2rem;
     padding-left: 10px;
-    z-index: 3;
+    z-index: 9;
 }
 
 #nav-menu {
@@ -272,7 +293,7 @@ nav {
     font-size: 1.7rem;
     top: 66px;
     justify-content: center;
-    z-index: 3;
+    z-index: 9;
 }
 
 nav ul {
