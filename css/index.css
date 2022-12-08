@@ -35,7 +35,6 @@ main {
     justify-self: center;
     align-self: center;
     border-radius: 10px;
-    margin: 15px;
     z-index: 1;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(2px);
@@ -47,10 +46,6 @@ main {
     justify-self: center;
     align-self: center;
     margin: 15px;
-}
-
-.top-text-button {
-    
 }
 
 .top-area img {
