@@ -40,10 +40,12 @@
 
     .top-area h1 {
         font-size: 2rem;
+        top: -10px;
     }
 
     .top-area h2 {
         font-size: 1.5rem;
+        max-width: 580px;
     }
 
     .top-area a {
@@ -163,8 +165,8 @@
 
     .top-area h2 {
         top: 85px;
-        width: 725px;
         font-size: 2rem;
+        max-width: 730px;
     }
 
     .top-area a {
@@ -400,9 +402,10 @@
 
     .top-area h2 {  
         top: 104px;
-        width: 875px;
         font-size: 2.8rem;
+        max-width: 820px;
     }
+
 
     .top-area a {
         top: 360px;
