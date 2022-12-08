@@ -108,7 +108,7 @@ main {
 .visiter-group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 0;
+    border: 0px solid;
 }
 
 .visiter-group-style{
