@@ -66,3 +66,7 @@ main,
 .button {
     text-transform: uppercase;
 }
+
+h2.phone-nr {
+    width: auto;
+}
