@@ -2,7 +2,7 @@ main,
 .join-us,
 .support-button,
 .volunteer-button,
-.contakt-button {
+.contact-button {
     display: grid;
     justify-items: center;
     width: 100%;
@@ -56,7 +56,7 @@ main,
 
 .support-button,
 .volunteer-button,
-.contakt-button {
+.contact-button {
     justify-items: end;
     margin-bottom: 10px;
 }

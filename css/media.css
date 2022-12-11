@@ -317,7 +317,7 @@
     }
     
     .support-button,
-    .contakt-button {
+    .contact-button {
         justify-items: start;
     }
 
@@ -327,7 +327,7 @@
     }
 
     /*visit*/
-    .visit-contakt-style {
+    .visit-contact-style {
         margin: 1% 5%;
     }
 
@@ -341,8 +341,8 @@
         gap: 10px 20px;
     }
 
-    /*contakt*/
-    .contakt-style h2 {
+    /*contact*/
+    .contact-style h2 {
         font-size: 1.5rem;
         width: 390px;
     }
@@ -388,7 +388,7 @@
     }
 
     /*visit*/
-    .visit-contakt-style {
+    .visit-contact-style {
         margin: 40px 0px;
         width: 960px;
         padding: 10px 150px;

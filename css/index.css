@@ -118,6 +118,23 @@ main {
     font-family: 'Andika', sans-serif;
 }
 
+/*
+------------------
+.kids {
+    border: 2px solid var(--black-color);
+}
+
+/*
+#kids-radio-button input:checked + label ~ .visiter-group-style {
+    background-color: aqua;
+    box-shadow: 0px 5px 10px 1px gray;
+}*/
+/*
+.kids-radio-button:checked ~ .kids {
+    border: 0px solid var(--black-color);
+}
+-------------------*/
+
 .kids {
     background-color: var(--red-background);
 }

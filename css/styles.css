@@ -199,7 +199,7 @@ main {
     margin: 15px;
 }
 
-.visit-contakt-style {
+.visit-contact-style {
     background-color: var(--grey-background);
     padding: 5px 30px;
     margin: 15px;
@@ -207,17 +207,17 @@ main {
     border: 1px solid var(--white-color);
 }
 
-.visit-contakt-style h1 {
+.visit-contact-style h1 {
     font-size: 2rem;
     display: grid;
     justify-items: center;
 }
 
-.visit-contakt-style h2 {
+.visit-contact-style h2 {
     font-size: 1.5rem;
 }
 
-.visit-contakt-style h3 {
+.visit-contact-style h3 {
     font-size: 1.2rem;
     font-weight: 500;
 }
