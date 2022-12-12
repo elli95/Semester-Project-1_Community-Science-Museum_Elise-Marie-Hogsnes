@@ -1,15 +1,9 @@
-main {
-    display: grid;
-    justify-items: center;
+.visit-contact-style h2 {
+    font-size: 1.5rem;
 }
-
 
 .visit-page-space {
     padding: 10px 0px;
-}
-
-.admission-style h3 {
-    padding-bottom: 20px;
 }
 
 .iframe-style {
@@ -19,24 +13,19 @@ main {
     border-radius: 10px;
 }
 
+.admission-style h3 {
+    padding-bottom: 20px;
+}
+
+
+.tickets {
+    display: grid;
+    justify-items: center;
+}
+
 .ticket-form {
     display: grid;
     justify-content: center;
     padding-bottom: 10px;
     padding: 10px 0px;
 }
-
-.button-style,
-.tickets {
-    display: grid;
-    justify-items: center;
-}
-
-.ticket-form-felds {
-    display: grid;
-}
-
-.button {
-    text-transform: uppercase;
-}
-

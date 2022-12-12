@@ -42,3 +42,8 @@ Any advice for common problems or issues.
 ## Authors
 
 Contributors' names and contact info
+
+My previous assignment in html & css - https://github.com/elli95/HTML-and-CSS_CA_Elise-Marie-Hogsnes/blob/main/css/styles.css
+https://www.educative.io/answers/how-to-crop-an-image-in-css
+https://blog.pope.tech/2020/02/28/missing-form-label-search/
+https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/

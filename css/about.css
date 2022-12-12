@@ -1,11 +1,8 @@
-main,
-.join-us,
-.support-button,
-.volunteer-button,
-.contact-button {
-    display: grid;
-    justify-items: center;
-    width: 100%;
+.about-us {
+    background-color: var(--grey-background);
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .about-us h1 {
@@ -19,13 +16,29 @@ main,
     padding: 10px 0px;
 }
 
-.join-us-style h2 {
-    font-size: 1.4rem;
+.support-us {
+    background-color: var(--red-background);
+}
+
+.join-us,
+.about-contact-button {
+    display: grid;
+    justify-items: center;
+    width: 100%;
 }
 
 .join-us-style {  
     display: grid;
     padding: 27px;
+}
+
+.join-us-style h2 {
+    font-size: 1.4rem;
+}
+
+.about-contact-button {
+    justify-items: end;
+    margin-bottom: 10px;
 }
 
 .join-us-img {
@@ -35,30 +48,12 @@ main,
     margin: 10px;
 }
 
-.about-us {
-    background-color: var(--grey-background);
-    margin: 15px;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.support-us {
-    background-color: var(--red-background);
-}
-
 .volunteer {
     background-color: var(--teal-background);
 }
 
 .volunteer-style {
     grid-template-areas: "a" "b";
-}
-
-.support-button,
-.volunteer-button,
-.contact-button {
-    justify-items: end;
-    margin-bottom: 10px;
 }
 
 .internships {
