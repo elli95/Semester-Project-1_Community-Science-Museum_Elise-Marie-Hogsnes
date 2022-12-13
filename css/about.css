@@ -5,14 +5,8 @@
     border-radius: 20px;
 }
 
-.about-us h1 {
-    font-size: 2rem;
-}
-
 .about-us h2,
 .join-us-style h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
     padding: 10px 0px;
 }
 
@@ -30,10 +24,6 @@
 .join-us-style {  
     display: grid;
     padding: 27px;
-}
-
-.join-us-style h2 {
-    font-size: 1.4rem;
 }
 
 .about-contact-button {

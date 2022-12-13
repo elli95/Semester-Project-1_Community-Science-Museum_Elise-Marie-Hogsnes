@@ -30,6 +30,11 @@ The inspiration and information used for the construction of this project came f
 - https://blog.pope.tech/2020/02/28/missing-form-label-search/
 - https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/
 
+Font type:
+
+- https://fonts.google.com/specimen/Audiowide
+- https://fonts.google.com/specimen/Andika
+
 ### Executing program
 
 Hosted link: https://dapper-shortbread-d8a0e8.netlify.app/index.html

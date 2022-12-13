@@ -187,7 +187,7 @@ main {
     border: 1px solid var(--black-color);
     padding: 10px;
     border-radius: 10px;
-    width: 160px;
+    width: 164px;
     gap: 10px;
 }
 
@@ -226,14 +226,8 @@ main {
 }
 
 .visit-contact-style h1 {
-    font-size: 2rem;
     display: grid;
     justify-items: center;
-}
-
-.visit-contact-style h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
 }
 
 .ticket-form-felds :is(input, select),
@@ -314,6 +308,22 @@ main {
 }
 
 /*img, text and font*/
+.main-title-size {
+    font-size: 2rem;
+}
+
+.smaller-title-size,
+.smaller-title-size h2 {
+    font-size: 1.5rem;
+}
+
+.text-size,
+h2.text-size,
+.text-size h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .bottom-border {
     border-bottom: 1px solid var(--black-color);
 }

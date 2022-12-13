@@ -156,14 +156,29 @@
         border-right: 3px solid var(--black-color);
     }
 
+    .main-title-size {
+        font-size: 2.5rem;
+    }
+
+    .smaller-title-size,
+    .smaller-title-size h2 {
+        font-size: 2rem;
+    }
+
+    .text-size,
+    h2.text-size,
+    .text-size h3  {
+        font-size: 1.4rem;
+    }
+    
     /*index page*/
     .top-area h1 {
         font-size: 3rem;
     }
 
     .top-area h2 {
-        top: 85px;
         font-size: 2rem;
+        top: 85px;
         max-width: 730px;
     }
 
@@ -178,14 +193,6 @@
     .top-text {
         width: 90%;
         height: 400px;
-    }
-
-    .index-style h3 {
-        font-size: 1.3rem;
-    }
-
-    .visiter-group-style {
-        font-size: 1.7rem;
     }
 
     .kids-radio-button:checked ~ .kids-style,
@@ -253,12 +260,7 @@
     }
 
     .font-style h2 {
-        font-size: 2rem;  
         padding-left: 100px;
-    }
-
-    .font-style h3 {
-        font-size: 1.5rem;
     }
 
     .exhibitions-text-style {
@@ -289,15 +291,6 @@
         padding: 30px 50px;
     }
 
-    .about-us h1 {
-        font-size: 2.2rem;
-    }
-
-    .about-us h2,
-    .join-us-style h3 {
-        font-size: 1.4rem;
-    }
-
     .join-us {
         justify-content: center;
         padding: 20px 0px;
@@ -307,10 +300,6 @@
         grid-template-columns: 1fr auto;
         align-items: center;
         grid-gap: 30px;
-    }
-
-    .join-us-style h2 {
-        font-size: 1.8rem;
     }
 
     .left-button {
@@ -339,7 +328,6 @@
 
     /*contact*/
     .contact-style h2 {
-        font-size: 1.5rem;
         width: 390px;
     }
 
@@ -391,8 +379,8 @@
     }
 
     .top-area h2 {  
-        top: 104px;
         font-size: 2.8rem;
+        top: 104px;
         max-width: 820px;
     }
 
