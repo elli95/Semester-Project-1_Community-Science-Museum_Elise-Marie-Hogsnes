@@ -1,49 +1,39 @@
 # Semester-Project-1_Elise-Marie-Hogsnes
 
-First Semester Project at Noroff front-end
-
-# Project Title
-
-A simple overview of use/purpose.
+This is the HTML & CSS course assignment by Elise Marie Hogsnes, from the August 2022 frontend development class, Noroff. This project shows my version of the rainyDay task.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project is the web version based on the semester project and the design created from that.
+This website will display a museum page aimed at children and teenagers (ages 7-15) and families with younger children. This website shows what the museum has to offer in terms of activities, exhibitions and other relevant information such as location, contact information and more general information about the museum and their cause.
 
-## Getting Started
+# Reference:
 
-### Dependencies
+My Figma Prototype:
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing the program.
-- ex. Windows 10
+Desktop: https://www.figma.com/file/8U5eM7wzVAbgPWQHlyPKvo/Semester-Project?node-id=0%3A1&t=MvgA0a4UHJYjbZuz-1
 
-### Installing
+Mobile: https://www.figma.com/file/8U5eM7wzVAbgPWQHlyPKvo/Semester-Project?node-id=1%3A6&t=MvgA0a4UHJYjbZuz-1
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+Please note that the webpage is not a complete recreation of the design created in the figma files.
+The reasons for this are further discussed in a separate report on the project.
+
+All additional images outside the documents from the assignment were obtained from https://unsplash.com/
+All image editing was done with FastStone Photo Resizer and paint.net.
+
+Additional icons, such as an arrow, phone and email, were sourced from https://fontawesome.com/
+
+The inspiration and information used for the construction of this project came from Noroff's curriculum and various websites linked below.
+
+- My previous assignment in html & css - https://github.com/elli95/HTML-and-CSS_CA_Elise-Marie-Hogsnes/blob/main/css/styles.css
+- https://www.educative.io/answers/how-to-crop-an-image-in-css
+- https://blog.pope.tech/2020/02/28/missing-form-label-search/
+- https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/
 
 ### Executing program
 
-- hosted link
-
-OR
-
-- How to run the program
-- Step-by-step bullets
-
-code blocks for commands
-
-## Help
-
-Any advice for common problems or issues.
-
-- command to run if the program contains helper info
+Hosted link: https://dapper-shortbread-d8a0e8.netlify.app/index.html
 
 ## Authors
 
-Contributors' names and contact info
-
-My previous assignment in html & css - https://github.com/elli95/HTML-and-CSS_CA_Elise-Marie-Hogsnes/blob/main/css/styles.css
-https://www.educative.io/answers/how-to-crop-an-image-in-css
-https://blog.pope.tech/2020/02/28/missing-form-label-search/
-https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/
+Elise Marie Hogsnes
