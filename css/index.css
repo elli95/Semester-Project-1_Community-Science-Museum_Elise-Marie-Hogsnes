@@ -79,34 +79,31 @@ main {
     margin: 0;
 }
 
-.visiter-group {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border: 0px solid;
+.kids-adults input:checked + label {
+    text-decoration: 2px underline;
+    border-bottom: 0px;
 }
 
-.visiter-group-style{
+#kids-section:checked + label {
+    border-left: 0px;
+}
+
+#researchers-section:checked + label {
+    border-right: 0px;
+}
+
+.kids-adults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a b c" "d d d";
+}
+
+.visiter-group-style {
     font-size: 1.1rem;
     text-align: center;
     padding: 10px;
+    border: 1px solid var(--black-color);
 }
-
-/*
-------------------
-.kids {
-    border: 2px solid var(--black-color);
-}
-
-/*
-#kids-radio-button input:checked + label ~ .visiter-group-style {
-    background-color: aqua;
-    box-shadow: 0px 5px 10px 1px gray;
-}*/
-/*
-.kids-radio-button:checked ~ .kids {
-    border: 0px solid var(--black-color);
-}
--------------------*/
 
 .kids {
     background-color: var(--red-background);
