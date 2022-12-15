@@ -84,6 +84,10 @@
         object-position: 0px bottom;
     }
 
+    .to-the-top-arrow {
+        z-index: 0;
+    }
+
     /*about*/
     .about-us {
         margin: 20px 35px;
@@ -98,14 +102,13 @@
 
 @media (min-width: 900px){
     body {
-        padding-top: 0px;
+        padding-top: 72px;
     }
 
     header {
-        grid-template-areas: "a b";
-        padding: 10px; 
-        position: unset;
-        width: unset;
+        grid-template-areas:
+        "a c";
+        padding: 0px 10px;
     }
 
     .logo {
@@ -118,7 +121,7 @@
 
     nav {
         display: flex;
-        position: inherit;
+        position: initial;
         font-size: 2rem;
     }
 
@@ -285,6 +288,10 @@
         height: 660px;
     }
 
+    .to-the-top-arrow {
+        z-index: 2;
+    }
+
     /*about*/
     .about-us {
         margin: 20px 75px;
@@ -353,6 +360,10 @@
 }
 
 @media (min-width: 1000px){
+    body {
+        padding-top: 80px;
+    }
+
     nav {
         font-size: 2.3rem;
     }
@@ -435,7 +446,10 @@
         width: 645px;
     }
 
-    .kids-style img,
+    .kids-style img {
+        height: 100%;
+    }
+    
     .teachers-style img,
     .teachers-text-style,
     .researchers-style img {
