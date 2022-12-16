@@ -198,6 +198,10 @@
         height: 400px;
     }
 
+    .kids-adults label {
+        font-size: 1.5rem;
+    }
+
     .kids-radio-button:checked ~ .kids-style,
     .researchers-radio-button:checked ~ .researchers-style {
         grid-template-columns: repeat(2, 1fr);

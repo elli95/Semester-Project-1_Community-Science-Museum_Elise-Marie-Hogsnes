@@ -93,6 +93,13 @@ main {
     grid-template-areas: "a b c" "d d d";
 }
 
+.kids-radio-button,
+.teachers-radio-button,
+.researchers-radio-button {
+    position: absolute;
+    opacity: 0;
+}
+
 .visiter-group-style {
     text-align: center;
     padding: 10px;
@@ -109,12 +116,6 @@ main {
     background-color: var(--blue-background);
 }
 
-.kids-radio-button,
-.teachers-radio-button,
-.researchers-radio-button {
-    position: absolute;
-    opacity: 0;
-}
 
 .kids-style img,
 .teachers-style img,
