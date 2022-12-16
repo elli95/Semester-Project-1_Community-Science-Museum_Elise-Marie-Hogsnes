@@ -48,7 +48,7 @@
     .top-area a {
         width: 375px;
         font-size: 1.3rem;
-        top: 158px;
+        top: 172px;
     }
 
     .top-text {
@@ -339,7 +339,7 @@
 
     /*contact*/
     .contact-style h2 {
-        width: 390px;
+        width: 488px;
     }
 
     .ticket-form-felds :is(input, select),
