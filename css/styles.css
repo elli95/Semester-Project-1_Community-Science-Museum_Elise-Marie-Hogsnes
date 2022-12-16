@@ -42,6 +42,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 1px solid var(--white-color);
     z-index: 2;
 }
 
@@ -71,6 +72,7 @@ footer {
     grid-template-columns: repeat(2,auto);
     grid-template-areas: "a c" "b d";
     padding: 5px 5px;
+    border-top: 1px solid var(--white-color);
     z-index: 1;
 }
 
