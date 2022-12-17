@@ -33,6 +33,13 @@ The inspiration and information used for the construction of this project came f
 - https://blog.pope.tech/2020/02/28/missing-form-label-search/
 - https://webgolovolomki.com/en/how-to-make-a-smooth-zoom-of-the-image-on-hover-effect-on-pure-css/
 
+Online tools used for website testing:
+
+- Markup Validation Service
+  - https://validator.w3.org/
+- Web Accessibility Evaluation Tools
+  - https://wave.webaim.org/
+
 Font type:
 
 - https://fonts.google.com/specimen/Audiowide
