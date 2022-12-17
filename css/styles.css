@@ -115,6 +115,8 @@ nav {
     position: absolute;
     background: var(--grey-background);
     border-bottom-right-radius: 10px;
+    border-right: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--white-color);
     font-size: 1.7rem;
     top: 66px;
     justify-content: center;
