@@ -14,7 +14,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#Installation">Installation</a></li>
 <!--         <li><a href="#installation">Installation</a></li> -->
       </ul>
     </li>
@@ -47,9 +47,13 @@ View the live version [here](https://dapper-shortbread-d8a0e8.netlify.app/index.
 
 
 
-<!-- ### Built With
+ ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+[![My Skills](https://skillicons.dev/icons?i=figma)](https://www.figma.com/)
+[![My Skills](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![My Skills](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<!-- This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
 
 <!-- * [![Visual studio code][Next.js]][Next-url] -->
 
@@ -58,25 +62,21 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+### Installation
 1. Clone the repo:
 
 ```bash
 git clone https://github.com/elli95/Semester-Project-1_Community-Science-Museum_Elise-Marie-Hogsnes
 ```
 
-2. Open with visual studio code.
+2. Open the folder with a code editor (ex. visual studio code)
 
-3. Open with live server
-
-or
-
-2. Deploy to Netlify.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Prerequisites
+<!-- ### Prerequisites
 
-Instal Live Server by Ritwick Dey
+Instal Live Server by Ritwick Dey -->
 
 <!-- ### Installation
 
@@ -114,6 +114,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Elise Marie Hogsnes - [Linkedin.com](https://www.linkedin.com/in/elise-marie-hogsnes-77b13b1aa/)
 
+[elise-marie.h@hotmail.com](mailto:elise-marie.h@hotmail.com)
 <!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
