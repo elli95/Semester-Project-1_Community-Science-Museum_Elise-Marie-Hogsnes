@@ -155,4 +155,4 @@ Font type:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[project-screenshot]: images/communitycciencemuseum-screenshot.png
+[project-screenshot]: images/communitycciencemuseum-screenshot.webp
