@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-#  Cross Course Project - Community Science Museum
+#  Semester Project 1 - Community Science Museum
 [![Community Science Museum - Screen Shot][project-screenshot]](https://dapper-shortbread-d8a0e8.netlify.app/index.html)
 <!-- TABLE OF CONTENTS -->
 <details>
